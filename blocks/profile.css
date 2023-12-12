@@ -10,7 +10,10 @@
   border-radius: 50%;
   object-fit: cover;
   background-position: center;
-  margin-right: 24px;
+  margin-top: 4px;
+  margin-left: 23px;
+  margin-bottom: 4px;
+  margin-right: 26px;
 }
 
 .profile__info {
@@ -51,6 +54,7 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  margin-top: 7px;
 }
 
 .profile__add-button {
