@@ -6,23 +6,64 @@
 @import url(../blocks/card.css);
 @import url(../blocks/footer.css);
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
+  .header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+    margin-top: 45px;
+    height: 74px;
+    border-bottom: 1px solid rgba(84, 84, 84, 0.7);
+  }
+
+  .header__logo {
+    padding-left: 27px;
+    padding-bottom: 32px;
+    padding-right: 167px;
+  }
+
   .profile {
     flex-direction: column;
+    padding-left: 19px;
+    padding-bottom: 19px;
+  }
+
+  .profile__image {
+    margin-bottom: 26px;
   }
 
   .profile__info {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    display: grid;
+    align-items: center;
     width: 100%;
     padding-left: 62px;
     padding-right: 62px;
   }
 
+  .profile__title {
+    font-family: "Inter", Arial, sans-serif;
+    font-size: 22px;
+    line-height: 27px;
+    font-style: normal;
+    font-weight: 500;
+    grid-area: title;
+    margin: 0;
+    text-align: center;
+  }
+
   .profile__description {
     width: 100%;
     align-items: center;
+    margin-top: 14px;
+    margin-left: 43px;
+    margin-right: 43px;
+    font-family: "Inter", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
   }
 
   .profile__add-button {
