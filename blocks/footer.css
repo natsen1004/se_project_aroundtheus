@@ -11,3 +11,13 @@
   margin-left: 263px;
   margin-bottom: 60px;
 }
+
+@media screen and (max-width: 770px) {
+  .footer {
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .footer {
+  }
+}

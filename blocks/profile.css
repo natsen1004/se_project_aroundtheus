@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   padding-top: 40px;
+  padding-bottom: 47px;
 }
 
 .profile__image {
@@ -31,8 +32,13 @@
   line-height: 48px;
   font-style: normal;
   font-weight: 500;
+  display: grid;
   grid-area: title;
   margin: 0;
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 373px;
 }
 
 .profile__edit-button {
@@ -43,30 +49,98 @@
   width: 24px;
   grid-area: button;
   grid-gap: 16px;
-  border: 1px;
+  border: 1px solid #ffffff;
   margin-top: 15px;
+  display: grid;
+  align-self: center;
+  margin-left: 18px;
+}
+
+.profile__edit-button:hover {
+  opacity: 0.6;
+  cursor: pointer;
+  transition: 0.1s;
 }
 
 .profile__description {
   font-family: "Inter", Arial, sans-serif;
   font-size: 18px;
   line-height: 22px;
-  font-style: normal;
   font-weight: 400;
   grid-area: description;
   margin: 0;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  margin-top: 7px;
+  max-width: 373px;
+  padding-top: 7px;
 }
 
 .profile__add-button {
   background: transparent url(../images/add-icon.svg);
   background-repeat: no-repeat;
   background-position: center;
-  width: 150px;
   height: 50px;
-  margin-left: auto;
-  border: 2px;
+  margin: 0 auto;
+  border: 2px solid #ffffff;
+  width: 100%;
+  max-width: 282px;
+}
+
+.profile__add-button:hover {
+  opacity: 0.6;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+@media screen and (max-width: 770px) {
+  .profile {
+    flex-direction: column;
+    padding: 38px 0 36px;
+    text-align: center;
+  }
+
+  .profile__info {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    max-width: 224px;
+    gap: 0;
+    margin: 26px 0 14px 0;
+  }
+
+  .profile__description {
+    width: 100%;
+    max-width: 196px;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 36px;
+  }
+
+  .profile__image {
+    margin-right: 0;
+  }
+
+  .profile__title {
+    font-size: 22px;
+    line-height: 27px;
+    max-width: 196px;
+    text-align: center;
+  }
+
+  .profile__edit-button {
+    margin-top: 15px;
+    margin-left: 391px;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    border: 1px solid #ffffff;
+  }
+
+  .profile__edit-button:hover {
+    opacity: 0.6;
+    cursor: pointer;
+    transition: 0.1s;
+  }
 }

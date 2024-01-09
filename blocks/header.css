@@ -2,4 +2,25 @@
   margin-top: 45px;
   height: 74px;
   border-bottom: 1px solid rgba(84, 84, 84, 0.7);
+  padding: 0;
+}
+
+.header__logo {
+  padding-bottom: 41px;
+}
+@media screen and (max-width: 940px) {
+  .header__logo {
+    margin-left: 27px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header__logo {
+    padding-bottom: 32px;
+    width: 126px;
+  }
+
+  .header {
+    margin-top: 28px;
+  }
 }
