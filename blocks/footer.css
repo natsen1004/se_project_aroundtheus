@@ -9,12 +9,17 @@
   line-height: 22px;
   margin-top: 67px;
   margin-left: auto;
-  margin-right: auto;
   margin-bottom: 60px;
+  margin-right: auto;
 }
 
 @media screen and (max-width: 770px) {
   .footer {
+    width: 318px;
+    height: 18px;
+    margin-top: 67px;
+    margin-left: 20px;
+    margin-right: 95px;
   }
 }
 
