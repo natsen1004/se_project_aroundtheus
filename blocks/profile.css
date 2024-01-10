@@ -58,7 +58,7 @@
 .profile__edit-button:hover {
   opacity: 0.6;
   cursor: pointer;
-  transition: 0.1s;
+  transition: 0.1s ease-in-out;
 }
 
 .profile__description {
@@ -90,7 +90,7 @@
 .profile__add-button:hover {
   opacity: 0.6;
   cursor: pointer;
-  transition: 0.1s;
+  transition: 0.1s ease-in-out;
 }
 
 @media screen and (max-width: 770px) {
@@ -141,6 +141,18 @@
     cursor: pointer;
     transition: 0.1s;
   }
+
+  .profile__ad-button {
+    width: 150px;
+    height: 50px;
+    border: 2px solid #ffffff;
+  }
+
+  .profile__add-button:hover {
+    opacity: 0.6;
+    cursor: pointer;
+    transition: 0.1s ease-in-out;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -148,5 +160,22 @@
     width: 18px;
     height: 18px;
     margin-left: 10px;
+  }
+
+  .profile__edit-button:hover {
+    opacity: 0.6;
+    cursor: pointer;
+    transition: 0.1s ease-in-out;
+  }
+
+  .profile__add-button {
+    width: 282px;
+    height: 50px;
+  }
+
+  .profile__add-button:hover {
+    opacity: 0.6;
+    cursor: pointer;
+    transition: 0.1s ease-in-out;
   }
 }
