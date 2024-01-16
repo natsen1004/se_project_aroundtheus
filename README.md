@@ -18,4 +18,4 @@ In order to make this project happen, CSS, HTML, and Javascript were used. A Fig
   
 **GitHub**  
   
-[Link to the deployed GitHub page](https://natsen1004.github.io/se_project_aroundtheus/)
+* [Link to the deployed GitHub page](https://natsen1004.github.io/se_project_aroundtheus/)
