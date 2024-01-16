@@ -19,3 +19,6 @@ In order to make this project happen, CSS, and HTML were used. A Figma outline w
 **GitHub**  
   
 * [Link to the deployed GitHub page](https://natsen1004.github.io/se_project_aroundtheus/)
+
+**Video**
+* [Link to presentation video](https://cloudconvert.com/) 
