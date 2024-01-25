@@ -1,6 +1,7 @@
 # Project 3: Around The U.S.
 
 **Intro**
+
 This project is the landing page for an exploration project called Around the U.S. This page is meant to be interactive and engaging.
 
 In order to make this project happen, CSS, and HTML were used. A Figma outline was followed, and responsive design and media queries were used to make the platform functional on all screens.
